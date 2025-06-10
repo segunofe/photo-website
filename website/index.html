@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Amanda Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+      }
+
+      /* Navigation bar styles */
+      .navbar {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        z-index: 1;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 15px;
+      }
+
+      .navbar a:hover {
+        background-color: #4caf50;
+        border-radius: 5px;
+      }
+
+      /* Image gallery */
+      .logos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+        margin-top: 80px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+
+      .logos img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      h1 {
+        color: #4caf50;
+        font-size: 48px;
+        margin-top: 30px;
+      }
+
+      p {
+        font-size: 36px;
+        margin: 10px 0 40px;
+      }
+
+      /* Social media icons */
+      .social-media {
+        margin: 20px 0 40px;
+      }
+
+      .social-media i {
+        color: white;
+        font-size: 30px;
+        margin: 0 15px;
+        cursor: pointer;
+      }
+
+      .social-media i:hover {
+        color: #4caf50;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <a
+        href="https://aws.amazon.com/free/?gclid=EAIaIQobChMIjvamgbWqiwMV8SCtBh2r_QK1EAAYASAAEgIilPD_BwE&trk=578b2801-ffbb-4021-a1db-01a0bafb3a4a&sc_channel=ps&ef_id=EAIaIQobChMIjvamgbWqiwMV8SCtBh2r_QK1EAAYASAAEgIilPD_BwE:G:s&s_kwcid=AL!4422!3!507162072479!p!!g!!aws!12563449882!121199905124&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all"
+        target="_blank"
+        >Home</a
+      >
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Logos -->
+    <div class="logos">
+      <img src="images/amanda.jpg" alt="Amanda Logo" />
+      <img src="images/sch.jpg" alt="school Logo" />
+      <img src="images/wed.jpg" alt="wed Logo" />
+      <img src="images/baby.jpg" alt="Baby Logo" />
+      <img src="images/family.jpg" alt="fam Logo" />
+      <img src="images/birthday.jpg" alt="birthday Logo" />
+      <img src="images/mum.jpg" alt="Mum Logo" />
+      <img src="images/nature.jpg" alt="tree Logo" />
+      <img src="images/grad.jpg" alt="grad Logo" />
+    </div>
+
+    <!-- Main Content -->
+    <h1>Amanda Photography</h1>
+    <p>Create unforgettable memories!</p>
+
+    <!-- Social Media Icons -->
+    <div class="social-media">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </body>
+</html>
